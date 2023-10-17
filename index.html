@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuadrícula de Cuadros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Cuadrícula de Cuadros</h1>
+    <label for="rows">Filas: </label>
+    <input type="number" id="rows" min="1" value="5">
+    <label for="cols">Columnas: </label>
+    <input type="number" id="cols" min="1" value="5">
+    <button onclick="createGrid()">Crear Cuadrícula</button>
+    <div class="grid-container" id="grid-container"></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color:lightblue;
+    font-family:Arial,sans Serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-gap: 2px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.grid-item {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: background-color 1s;
+}
